@@ -1,7 +1,6 @@
 #include <iostream>
 using namespace std;
 
-
 struct  Array 
 {
     int A[10];
@@ -27,7 +26,7 @@ void insertSort(struct Array *arr,int x){
 void Rearrange(struct Array *arr)
 {
    int i,j;
-   i=0;
+   i=0; 
    j=arr->length-1;
    while(i<j){
    while(arr->A[i]<0)i++;
